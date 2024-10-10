@@ -33,4 +33,6 @@
     'installable': True,
     'application': True,
     'auto_install': False,
+    'price': 49.99,  # Precio del módulo
+    'currency': 'USD',  # Moneda en la que se vende (EUR o USD)
 }
