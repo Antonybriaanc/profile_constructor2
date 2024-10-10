@@ -1,0 +1,47 @@
+<odoo>
+    <record id="view_user_profile_form" model="ir.ui.view">
+        <field name="name">user.profile.form</field>
+        <field name="model">user.profile</field>
+        <field name="arch" type="xml">
+            <form string="User Profile">
+                <sheet>
+                    <group>
+                        <field name="name"/>
+                        <field name="module_access_ids" widget="many2many_tags"/>
+                        <field name="user_group_ids" widget="many2many_tags"/>
+                        <field name="menu_ids" widget="many2many_tags"/>
+                    </group>
+                    <div class="oe_chatter">
+                        <field name="message_follower_ids" widget="mail_followers"/>
+                        <field name="message_ids" widget="mail_thread"/>
+                    </div>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="view_user_profile_tree" model="ir.ui.view">
+        <field name="name">user.profile.tree</field>
+        <field name="model">user.profile</field>
+        <field name="arch" type="xml">
+            <tree string="User Profiles">
+                <field name="name"/>
+            </tree>
+        </field>
+    </record>
+
+    <!-- Action and Menu Items -->
+    <record id="action_user_profile" model="ir.actions.act_window">
+        <field name="name">Perfiles de usaurio</field>
+        <field name="res_model">user.profile</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <!-- Crear menú raíz personalizado -->
+    <menuitem id="menu_profile_constructor_root" name="Profile Constructor"
+        parent="base.menu_administration"/>
+
+    <!-- Añadir el menú de User Profiles -->
+    <menuitem id="menu_user_profile" name="Perfiles de Usuario"
+        parent="menu_profile_constructor_root" action="action_user_profile"/>
+</odoo>

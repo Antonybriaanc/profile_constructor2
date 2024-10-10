@@ -1,0 +1,3 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_user_profile,user_profile,model_user_profile,,1,1,1,1
+access_user_profile_history,user_profile_history,model_user_profile_history,,1,1,1,1
