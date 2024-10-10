@@ -27,7 +27,6 @@
     ),
     'author': 'ACASOFT',
     'maintainer': 'Antony Castillo',
-    'website': 'https://github.com/Antonybriaanc',
     'category': 'Administration/User Profiles',
     'depends': ['base', 'mail'],
     'data': [
