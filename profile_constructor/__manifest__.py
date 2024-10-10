@@ -25,7 +25,7 @@
         'Soporte y Contacto: '
         'Desarrollado por Antony Castillo. Para soporte técnico, contacta a: abcy775@gmail.com.'
     ),
-    'author': 'Antony Castillo',
+    'author': 'ACASOFT',
     'maintainer': 'Antony Castillo',
     'website': 'https://github.com/Antonybriaanc',
     'category': 'Administration/User Profiles',
