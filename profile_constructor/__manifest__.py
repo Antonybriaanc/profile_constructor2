@@ -23,10 +23,10 @@
         '2. Asigna perfiles a usuarios desde Ajustes > Usuarios y Compañías > Usuarios.\n'
         '3. Modifica perfiles para ajustar permisos y actualiza automáticamente los perfiles asignados.\n\n'
         'Soporte y Contacto: '
-        'Desarrollado por Antony Castillo. Para soporte técnico, contacta a: abcy775@gmail.com.'
+        'Desarrollado por Cosmo Solutions. Para soporte técnico, contacta a: cosmosolutions1@outlook.com.'
     ),
-    'author': 'ACASOFT',
-    'maintainer': 'Antony Castillo',
+    'author': 'Cosmo solutons',
+    'maintainer': 'Cosmo Solutions',
     'category': 'Administration/User Profiles',
     'depends': ['base', 'mail'],
     'data': [
