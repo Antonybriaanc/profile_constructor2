@@ -19,8 +19,7 @@
         '2. Asigna perfiles a usuarios desde Ajustes > Usuarios y Compañías > Usuarios.\n'
         '3. Modifica perfiles para ajustar permisos y actualiza automáticamente los perfiles asignados.\n\n'
         'Soporte y Contacto: '
-        'Desarrollado por Cosmo Solutions. 
-            Para soporte técnico, contacta a: cosmosolutions1@outlook.com.'
+        'Desarrollado por Cosmo Solutions. Para soporte técnico, contacta a: cosmosolutions1@outlook.com.'
     ),
     'author': 'Cosmo solutons',
     'maintainer': 'Cosmo Solutions',
