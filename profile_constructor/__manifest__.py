@@ -1,5 +1,5 @@
 {
-    'name': 'Gestion de accesos de usuarios',
+    'name': 'access profile manager',
     'version': '1.0',
     'summary': 'Automatización avanzada de perfiles de usuario en Odoo',
     'description': (
