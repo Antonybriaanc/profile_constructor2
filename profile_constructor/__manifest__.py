@@ -21,7 +21,7 @@
         'Soporte y Contacto: '
         'Desarrollado por Cosmo Solutions. Para soporte técnico, contacta a: cosmosolutions1@outlook.com.'
     ),
-    'author': 'Cosmo solutons',
+    'author': 'Cosmo solutions',
     'maintainer': 'Cosmo Solutions',
     'category': 'Administration/User Profiles',
     'depends': ['base', 'mail'],
