@@ -1,5 +1,5 @@
 {
-    'name': 'Profile Constructor',
+    'name': 'Gestion de accesos de usuarios',
     'version': '1.0',
     'summary': 'Automatización avanzada de perfiles de usuario en Odoo',
     'description': (
